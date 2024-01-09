@@ -19,6 +19,7 @@ struct ContentView: View {
         
         NavigationView {
             VStack {
+                Text("project updated")
                 Text(selection.rawValue)
                     .font(.system(size: 150))
                 
